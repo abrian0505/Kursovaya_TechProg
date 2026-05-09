@@ -8,5 +8,8 @@ namespace Kursovaya_TechProg.Models
 {
     internal class RoomBenefit
     {
+        private int _roomBenefitId;
+        private int _roomId;
+        private string _name;
     }
 }

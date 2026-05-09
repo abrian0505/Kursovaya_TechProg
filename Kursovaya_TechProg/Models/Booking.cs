@@ -18,6 +18,8 @@ namespace Kursovaya_TechProg.Models
         private DateTime _bookingDate;
 
         private int _guestCount;
+        private string _guestFullName;
+        private string _guestPassportNumber;
         public Booking(string userId, string roomId, DateTime checkInDate, DateTime checkOutDate, int guestCount)
         {
             _userId = userId;

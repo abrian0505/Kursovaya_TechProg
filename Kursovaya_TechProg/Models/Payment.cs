@@ -8,5 +8,6 @@ namespace Kursovaya_TechProg.Models
 {
     internal class Payment
     {
+
     }
 }
